@@ -1,0 +1,23 @@
+"users": [
+    {
+        "prenom":"Abdou Karim",
+        "nom":"Coulibaly",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"15"
+    },
+    {
+        "prenom":"Ndianko",
+        "nom":"Yaffa",
+        "login":"admin@gmail.com",
+        "password":"admin",
+        "role":"ROLE_ADMIN",
+        "score":"0"
+    }
+],
+"questions":[
+    {
+        
+    }
+]
