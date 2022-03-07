@@ -7,7 +7,7 @@ if(session_status()==PHP_SESSION_NONE){
 //inclusion des constantes
 require_once dirname(dirname(__FILE__))."/config/constantes.php";
 //inclusion du Validator
-require_once dirname(dirname(__FILE__))."/config/validator.php";
+require_once dirname(dirname(__FILE__))."/config/validators.php";
 //
 require_once dirname(dirname(__FILE__))."/config/orm.php";
 //inclusion des roles

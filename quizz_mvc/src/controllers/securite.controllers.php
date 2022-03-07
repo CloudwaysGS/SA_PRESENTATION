@@ -4,6 +4,8 @@
 /**
 * Traitement des Requetes POST
 */
+require_once(PATH_SRC."models".DIRECTORY_SEPARATOR."user.models.php");
+
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 if(isset($_REQUEST['action'])){
     if($_REQUEST['action']=="connexion"){
@@ -25,6 +27,8 @@ if(isset($_REQUEST['action'])){
     else{
         echo"charger la page de connexion";
     }
+}else{
+    require_once(PATH_VIEWS."securite".DIRECTORY_SEPARATOR."connexion.html.php");
 }
 
 }

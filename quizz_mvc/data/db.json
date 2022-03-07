@@ -1,23 +1,107 @@
-"users": [
+{"users": [
+    
     {
         "prenom":"Abdou Karim",
         "nom":"Coulibaly",
         "login":"joueur@gmail.com",
         "password":"joueur",
         "role":"ROLE_JOUEUR",
-        "score":"15"
+        "score":"11250"
     },
     {
         "prenom":"Ndianko",
         "nom":"Yaffa",
         "login":"admin@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"82156"
+    },
+    {
+        "prenom":"Moussa",
+        "nom":"Coulibaly",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"3258"
+    },
+    {
+        "prenom":"Khayou",
+        "nom":"Ciss",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"2358"
+    },
+    {
+        "prenom":"Awa",
+        "nom":"Coulibaly",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"1538"
+    },
+    {
+        "prenom":"Ademba",
+        "nom":"Seck",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"1358"
+    },
+    {
+        "prenom":"Salla",
+        "nom":"Mbaye",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"558"
+    },
+    {
+        "prenom":"Nico",
+        "nom":"Gonzaless",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"258"
+    },
+    {
+        "prenom":"Ismaila",
+        "nom":"Berethe",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"214"
+    },
+    {
+        "prenom":"Rakhou",
+        "nom":"JR",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"98"
+    },
+    {
+        "prenom":"Dagada",
+        "nom":"Diop",
+        "login":"joueur@gmail.com",
+        "password":"joueur",
+        "role":"ROLE_JOUEUR",
+        "score":"58"
+    },
+    {
+        "prenom":"Nico",
+        "nom":"Gonzaless",
+        "login":"admin@gmail.com",
         "password":"admin",
         "role":"ROLE_ADMIN",
-        "score":"0"
+        "score":"258"
     }
+
+    
 ],
 "questions":[
     {
         
     }
 ]
+}

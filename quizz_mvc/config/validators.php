@@ -13,5 +13,9 @@ $errors[$key]=$message;
 }
 function valid_password(string $key,string $data,array &$errors,string
 $message="password invalid"){
-    
+    if(!filter_var($data, FILTER_VALIDATE_EMAIL)){
+$errors[$key]=$message;
+    }
 }
+
+   
