@@ -1,7 +1,7 @@
 
     
     <div style="margin:25px 70px" class="listj">
-            
+    <h4>LISTE DES JUOEURS PAR SCORE</h4>
             <table class="tablist">
                     <tr>
                         <th>Nom</th>

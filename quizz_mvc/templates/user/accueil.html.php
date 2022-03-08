@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="icon2">
-                    <a class="span" href="<?=WEB_ROOT."?controller=user&action=liste.admin"?>">Créer Admin</a>
+                    <a class="span" href="<?=WEB_ROOT."?controller=user&action=creer.admin"?>">Créer Admin</a>
                     <img class="" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."ic-ajout.png" ?>" alt="">
 
                 </div>
@@ -51,8 +51,8 @@
         <div class="item2">
             
             <div class="listjoueurs">
-            <h4>LISTE DES JUOEURS PAR SCORE</h4>
-                <?php echo $listj ?>
+            
+                <?php echo $content_for_views  ?>
                 
             </div>
         </div>

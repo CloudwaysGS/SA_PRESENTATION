@@ -42,17 +42,69 @@
             require_once(PATH_VIEW."user/accueil.html.php" );
             // echo "page réservée au Formulaire d'accueil'!";
         }
+
+        // creer admin
+    
+        if($_REQUEST['action']=="creer.admin"){
+        creer_admin();
+        }
+
+            //Liste question
+        if($_REQUEST['action']=="liste.question"){
+        liste_question();
+        }
+
+            //creer admin
+            if($_REQUEST['action']=="creer.question"){
+                creer_question();
+                }
     }
 
 
+    function liste_question(){
+   
+        ob_start();
+        $data = find_users('ROLE_ADMIN');
+        require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."liste.question.html.php");
+        $content_for_views = ob_get_clean();
+        require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."accueil.html.php");
+    
+    
+    
+    }
+    
+     function creer_admin(){
+       
+            ob_start();
+            $data = find_users('ROLE_ADMIN');
+            require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."creer.admin.html.php");
+            $content_for_views = ob_get_clean();
+            require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."accueil.html.php");
+    }
+    
+    function creer_question(){
+       
+        ob_start();
+        $data = find_users('ROLE_ADMIN');
+        require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."creer.question.html.php");
+        $content_for_views = ob_get_clean();
+        require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."accueil.html.php");
+}
     //fonction Lister les joeurs
-    function lister_joueur(){
+
+        function lister_joueur(){
+            if($_REQUEST['action']=="accueil"){  
+                $content_for_views ="";
+            require_once(PATH_VIEW."user/accueil.html.php" );
+            }
+        if($_REQUEST['action']=="liste.joueur"){ 
         //recupération des données et chargement de la vue
         //appel du modèle
-        $data=find_users("ROLE_JOUEUR");
         ob_start();
+        $data=find_users("ROLE_JOUEUR");
         require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."liste.joueur.html.php" );
-        $listj= ob_get_clean();
+        $content_for_views = ob_get_clean();
         require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."accueil.html.php" );
 
+        }
     }
