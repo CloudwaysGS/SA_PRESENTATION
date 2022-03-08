@@ -1,0 +1,68 @@
+Nom Prénom Score
+DIATTA Ibou 1 022 pts
+NIANG Aly 963 pts
+MBAYE Saliou 877pts
+DIOUF Khady 875 pts 
+SOW Moussa 870 pts
+MBOUP Youssou 816 pts
+NIANG Djiby 816 pts
+DIENG Astou 800 pts
+SAMB Ibrahima 797 pts
+GUEYE Léna 763 pts
+BEYE Aminata 760 pts
+MANÉ Lamine 759pts
+MENDES Serges 730 pts
+NDECKY Estelle 723 pts
+DIALLO Moustapha 720 pts
+NDOUR Abba 716 pt
+
+ <!-- /* echo "<pre>"; -->
+    var_dump($_SERVER);
+   <!-- echo "</pre>";  */ -->
+
+
+
+
+
+
+   /* ,
+    "questions":[
+        {
+            "questions1": "Les langages Web"
+            
+        },
+
+        {
+            "questions2":"d'où vient le corona?"
+        },
+
+        {
+            "questions3":"Quel terme définit le langage sur Android et sur ios?"
+        },
+
+        {
+            "questions4":"Quelle la première école de codage gratuite au Sénégal?"
+        },
+        
+        {
+            "questions5":"les précurseurs de la révolution digitale?"
+        }
+
+    ] */
+
+
+
+
+
+
+
+
+
+
+    <ul>
+        <li><a class="active" href="<?=WEB_ROOT."?controller=user&action=accueil"?>">ACCUEIL</a></li>
+        <?php if(is_admin()): ?>
+            <li><a href="<?=WEB_ROOT."?controller=user&action=liste.joueur"?>">LISTE JOUEURS</a></li>
+        <?php endif?>
+        <li><a href="<?=WEB_ROOT."?controller=security&action=deconnexion"?>">DECONNEXION</a></li>
+    </ul>

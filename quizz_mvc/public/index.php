@@ -1,16 +1,25 @@
-<?php 
-//Demarrage de la sesion
-if(session_status()==PHP_SESSION_NONE){
-    session_start();
-    }
+<?php
+   //Demarage de la session
+   if(session_status()==PHP_SESSION_NONE){
+      session_start();
+   }
 
-//inclusion des constantes
-require_once dirname(dirname(__FILE__))."/config/constantes.php";
-//inclusion du Validator
-require_once dirname(dirname(__FILE__))."/config/validators.php";
-//
-require_once dirname(dirname(__FILE__))."/config/orm.php";
-//inclusion des roles
-require_once dirname(dirname(__FILE__))."/config/role.php";
-//Chargement du router
-require_once dirname(dirname(__FILE__))."/config/router.php"; 
+   // echo"<pre>"; 
+   //  var_dump(__FILE__);
+   //  echo"</pre>";
+
+   //INCLUSION DES CONSTANTES
+   require_once(dirname(dirname(__FILE__)))."/config/constantes.php";
+   
+   //INCLUSION OU CHARGEMENT DU FICHIER ORM
+   require_once(dirname(dirname(__FILE__)))."/config/orm.php";
+
+   //INCLUSION OU CHARGEMENT DES ROLES
+   require_once(dirname(dirname(__FILE__)))."/config/roles.php";
+
+   //INCLUSION OU CHARGEMENT DU VALIDATOR
+   require_once(dirname(dirname(__FILE__)))."/config/validator.php";
+   
+   //INCLUSION OU CHARGEMENT DU ROUTER
+   require_once(dirname(dirname(__FILE__)))."/config/router.php";
+   

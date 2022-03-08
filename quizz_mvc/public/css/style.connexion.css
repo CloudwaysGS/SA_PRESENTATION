@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/img-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}   
+
+.header{
+    height: 6rem;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    
+}
+
+.logSA{
+    float: left;
+    transform: scale(1.5);
+}
+
+h1{
+    flex: 3;
+    text-align: center;
+}
+
+
+.gencontain{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+}
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form{
+    width:100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+h3{
+    text-align: center;
+    align-self: center;
+    margin-left: 2rem;
+}
+
+.logform{
+    background-color: #538aaf;
+    padding: 0px;
+    margin-top: 0;
+    height: 3rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex: 5;
+    
+}
+
+span{
+    flex: 3;
+}
+.add{
+    flex: 1;
+    transform: scale(0.3);
+    background-color: white;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block; 
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #538aaf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.log{
+    border: 1px solid;
+    display: flex;
+}
+
+.inplog{
+    flex: 4;
+    border: none;
+}
+
+.inplog:focus{
+    outline: none;
+}
+
+.imglogo{
+    flex: 1;
+    transform: scale(0.5);
+    
+}
+/* input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+} */
+
+
+.pw{
+    border: 1px solid;
+    margin-top: 1rem;
+    display: flex;
+    height: 4rem;
+}
+
+.pwinp{
+    flex: 4;
+    border: none;
+}
+
+.pwinp:focus{
+    outline: none;
+}
+.imgpw{
+    flex: 1;
+    transform: scale(0.5);  
+}
+
+/* input:hover{
+    background-color: chocolate;
+} */
+
+.sins{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+
+small{
+    font-weight: bold;
+    font-size: large;
+}

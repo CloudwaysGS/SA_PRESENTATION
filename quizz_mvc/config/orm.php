@@ -1,11 +1,18 @@
 <?php
-///Recuperation des donnees du fichier
-function json_to_array(string $key):array{
-$dataJson=file_get_contents(PATH_DB);
-$data=json_decode($dataJson,true);
-return $data[$key];
-}
-//Enregistrement et Mis a jour des donnees du fichier
-function array_to_json(string $key,array $data):array{
-return [];
-}
+    //convertir le json chaine en tableau/recuperation des données du fichiers
+    function json_to_array(string $key): array{
+        $getjson = file_get_contents(PATH_DB);
+        // var_dump($getjson);die;
+        $data = json_decode($getjson, true);
+
+        return $data[$key];
+    }
+
+    //Enregistrement et Mise à jour du fichier json
+    function array_to_json(string $key, array $data): array{
+        $getjson= file_get_contents(PATH_DB);
+        $data=json_encode($getjson, true);
+
+        return [$data];
+
+    }

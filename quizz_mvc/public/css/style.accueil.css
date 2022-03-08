@@ -1,0 +1,257 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.headac{
+  background-color: rgb(3, 68, 3);
+  padding: 1rem;
+  height: 10vh;
+  display: flex;
+  
+  
+}
+
+
+
+.gencontain{
+  
+  /* margin: auto; */
+  margin-top: 1rem;
+  width: 95%;
+  height: 95%;
+  
+}
+
+.headitem{
+  border: 2px solid;
+  height: 6rem;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+}
+.deconnexion{
+  background-color: rgb(47, 238, 238);
+}
+
+.headitem h1{
+  color: rgb(249, 251, 252);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a button{
+  border-radius: 5px;
+  margin-right: 1rem;
+  padding: 1rem;
+  align-self: flex-end;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item{
+  display: flex;
+  flex: 4;
+  background-color: rgb(240, 235, 235);
+  padding: 12vh;
+  height: 46em;
+}
+
+.item1{
+  
+  flex: 1;
+  height: 55vh;
+  background-color: white;
+  margin-top: -3%;
+  border-radius: 2%;
+  
+}
+
+
+.headac h3{
+  flex: 12;
+}
+
+.logoSA{
+  /* float: left; */
+  transform: scale(1.5);
+  flex: 1;
+}
+
+
+.ava{
+  display: flex;
+  
+  background-color: aqua;
+  height: 8rem;
+  margin-top: 0%;
+  border-radius: 5%;
+
+}
+
+.av{
+  border-radius: 3rem;
+  margin-left: 2rem;
+}
+
+.p{
+  margin-right: 2rem;
+  color: aliceblue;
+}
+.icones{
+  align-items: center;
+  padding: 2rem;
+  height: 55%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.icon1, .icon2, .icon3, .icon4{
+  display: flex;
+}
+
+
+
+.span{
+  flex: 2;
+  font-size: 1.5rem;
+}
+.span:hover{
+  background-color: wheat;
+  color: red;
+}
+
+
+
+.item2{
+  
+  background-color: white;
+  flex: 2;
+  margin-left: 2rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 42em;
+  width: 30rem;
+  margin-top: -6em;
+  border-radius: 1rem;
+}
+
+.listjoueurs{
+ 
+  height: 70em;
+  border-radius: 1rem;
+  
+}
+h4{
+  margin-top: 3%;
+  font-size: 1.5em;
+  margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+} */

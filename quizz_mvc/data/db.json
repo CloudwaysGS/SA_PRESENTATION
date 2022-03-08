@@ -14,7 +14,15 @@
         "login":"admin@gmail.com",
         "password":"joueur",
         "role":"ROLE_JOUEUR",
-        "score":"82156"
+        "score":"8156"
+    },
+    {  
+    "prenom":"Maty",
+    "nom":"Diop",
+    "login":"admin@gmail.com",
+    "password":"joueur",
+    "role":"ROLE_JOUEUR",
+    "score":"8043"
     },
     {
         "prenom":"Moussa",

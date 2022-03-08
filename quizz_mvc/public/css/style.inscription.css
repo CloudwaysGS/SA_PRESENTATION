@@ -1,0 +1,73 @@
+
+*{
+box-sizing: border-box;
+}
+
+.container{
+    border: 3px solid red;
+    background-color: white;
+    width: 60%;
+    border-radius: 1rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.champs{
+    margin-top: 2rem;
+    width: 60%;
+    margin-left: 2rem;
+}
+
+.get_file{
+    display: flex;
+    justify-content: space-between;
+}
+
+.get_file h3{
+    margin-left: 3px;
+}
+
+.get_file .choose_file{
+    width: 10rem;
+    border-radius: 5px;
+}
+
+.pren .btn_creat{
+    margin-left: 55%;
+    width: 10rem;
+    border-radius: 5px;
+}
+
+.avat{
+    text-align: center;
+}
+
+.avat p{
+    margin-right: 3.5rem;
+}
+
+.avat .avat_img{
+    border-radius: 10rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.insc h1{
+    text-align: left;
+}
+
+hr{
+    width: 110%;
+}
