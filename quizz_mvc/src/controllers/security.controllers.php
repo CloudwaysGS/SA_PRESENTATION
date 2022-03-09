@@ -12,6 +12,7 @@
                 //echo "traiter le formulaire de connexion";
                 $log = $_POST['login'];
                 $passw= $_POST['password'];
+                
                 connexion($log, $passw);
             }
         }
@@ -69,8 +70,9 @@
         //appel d'une fonction du modele
             if(count($user)!=0){
                 //exitence de l'utiliesatur
+                
                 $_SESSION[KEY_USER_CONNECT]=$user;
-                header("location: ".WEB_ROOT."?controller=user&action=accueil");
+                header("location:".WEB_ROOT."?controller=user&action=accueil");
                 exit();
             }else{
                 //pas d'utilisateur

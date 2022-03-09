@@ -13,6 +13,7 @@
             <p>Pour tester votre niveau de culture générale</p>
         </div>
         <hr>
+        <form action="" method="post">
 
         <div class="pren">
             <label for="">Prénom</label>
@@ -49,6 +50,9 @@
             <input class="btn_creat" type="submit" name="" id="" value="Créer un compte">
         </div>
 
+
+        </form>
+       
     </div>
 
 

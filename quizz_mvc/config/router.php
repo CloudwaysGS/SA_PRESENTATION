@@ -7,9 +7,13 @@
                 require_once(PATH_SRC."controllers/security.controllers.php");
                 break;
             case "user":
-                require_once(PATH_SRC."controllers/user.controllers.php");
+                require_once(PATH_SRC."controllers/user.controller.php");
                 break;
         }
+        
+    
     }else{
         require_once(PATH_SRC."controllers/security.controllers.php");
+        
+    echo "okkkkkF";die;
     }

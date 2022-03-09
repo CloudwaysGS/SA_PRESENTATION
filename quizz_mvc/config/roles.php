@@ -3,7 +3,7 @@
 
 
     //Constantes
-    define("ROLE_JOEUR","ROLE_JOEUR");
+    define("ROLE_JOUEUR","ROLE_JOUEUR");
     define("ROLE_ADMIN","ROLE_ADMIN");
     //si la personne est connectée
     function is_connect(){
@@ -12,7 +12,7 @@
 
     //si elle joeur
     function is_joeur(){
-        return is_connect() && $_SESSION[KEY_USER_CONNECT]['role']==ROLE_JOEUR;
+        return is_connect() && $_SESSION[KEY_USER_CONNECT]['role']==ROLE_JOUEUR;
     }
 
     //si elle admin

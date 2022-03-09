@@ -20,8 +20,8 @@
     "prenom":"Maty",
     "nom":"Diop",
     "login":"admin@gmail.com",
-    "password":"joueur",
-    "role":"ROLE_JOUEUR",
+    "password":"absrimka",
+    "role":"ROLE_ADMIN",
     "score":"8043"
     },
     {

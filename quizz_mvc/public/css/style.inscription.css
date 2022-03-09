@@ -14,9 +14,10 @@ box-sizing: border-box;
 }
 
 .champs{
-    margin-top: 2rem;
+    
     width: 60%;
-    margin-left: 2rem;
+    
+    margin: 2rem;
 }
 
 .get_file{
