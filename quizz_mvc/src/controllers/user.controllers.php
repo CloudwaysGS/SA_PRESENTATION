@@ -29,19 +29,20 @@
             }
 
             if($_REQUEST['action']=="accueil"){
-                // echo "charger la page de connexion";
-                require_once(PATH_VIEW."user/accueil.html.php" );
+                if(is_admin()){
+                    lister_joueur(); 
+                }elseif(is_joeur()){
+                    jeu();
+                }
+                
             }
-            if ($_REQUEST['action']=="liste.joueur") {
+            elseif ($_REQUEST['action']=="liste.joueur") {
                 lister_joueur();
             }//liste.joueur
 
 
-        }else{
-            //echo "charger la page de connexion";
-            require_once(PATH_VIEW."user/accueil.html.php" );
-            // echo "page réservée au Formulaire d'accueil'!";
         }
+        
 
         // creer admin
     
@@ -57,10 +58,19 @@
             //creer admin
             if($_REQUEST['action']=="creer.question"){
                 creer_question();
-                }
+            }
     }
 
 
+    
+    function jeu(){
+   
+        ob_start();
+        require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."jeu.html.php");
+        $content_for_views = ob_get_clean();
+        require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."accueil.html.php");
+
+    }
     function liste_question(){
    
         ob_start();

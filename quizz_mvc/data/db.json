@@ -64,14 +64,7 @@
         "role":"ROLE_JOUEUR",
         "score":"558"
     },
-    {
-        "prenom":"Nico",
-        "nom":"Gonzaless",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"258"
-    },
+    
     {
         "prenom":"Ismaila",
         "nom":"Berethe",

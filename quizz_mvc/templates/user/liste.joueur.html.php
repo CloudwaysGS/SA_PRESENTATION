@@ -26,7 +26,3 @@
         <input type="submit" name="btn_suiv" id="suiv" value="Suivant">
     </div>
 
-<?php
-    //Inclusion du fichier footer
-    require_once(PATH_VIEW."include/footer.inc.html.php");
-?>

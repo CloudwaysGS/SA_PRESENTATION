@@ -1,7 +1,7 @@
 
 <?php
     //Inclusion du fichier header
-    require_once(PATH_VIEW."include/header.inc.html.php");
+    require_once(PATH_VIEW."include".DIRECTORY_SEPARATOR."header.inc.html.php");
 ?>
   
 
@@ -14,7 +14,7 @@
     <div class="item">
         <div class="item1">
             <div class="ava">
-                <img class="av" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."avatar1.png" ?>" alt="">
+                <img class="av" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."logo.webp" ?>" alt="">
                 <p>
                     AAA <br>
                     BBB
@@ -33,12 +33,13 @@
                     <img class="" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."ic-ajout.png" ?>" alt="">
 
                 </div>
-
+                <?php if(is_admin()): ?>
                 <div class="icon3">
-                    <a class="span" href="<?=WEB_ROOT."?controller=user&action=liste.joueur"?>">Liste Joueur</a>
+                    
+                    <a class="span" href="<?=WEB_ROOT."?controller=user&action=liste.joueur"?>">Liste Joueur</a> 
                     <img class="" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."ic-liste-active.png" ?>" alt="">
                 </div>
-
+                <?php endif ?>
                 <div class="icon4">
                     <a class="span" href="<?=WEB_ROOT."?controller=user&action=creer.question"?>">Créer Question</a>
                     <img class="" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."ic-ajout.png" ?>" alt="">
@@ -60,7 +61,7 @@
     </div>
 </div>
 
+
 <?php
-    //Inclusion du fichier footer
-    require_once(PATH_VIEW."include/footer.inc.html.php");
+    require_once(PATH_VIEW."include".DIRECTORY_SEPARATOR."footer.inc.html.php");
 ?>

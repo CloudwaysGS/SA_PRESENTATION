@@ -1,11 +1,3 @@
-<div id="bloc">
-
-
-<?php
-    require_once(PATH_VIEW."include".DIRECTORY_SEPARATOR."header.inc.html.php");
-?>
-
-</div>
 
 <div class="container">
     
@@ -57,7 +49,7 @@
 
 
     <div class="avat">
-            <img class="avat_img" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."avatar1.png"?>" alt="">
+            <img class="avat_img" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."logo.webp"?>" alt="" height="26%" width="90%">
             <p>Avatar du joueur</p>
     </div>
 
@@ -69,6 +61,4 @@
 
 
 
-<?php
-    require_once(PATH_VIEW."include".DIRECTORY_SEPARATOR."footer.inc.html.php");
-?>
+

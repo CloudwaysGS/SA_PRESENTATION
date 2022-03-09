@@ -41,15 +41,30 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+a{
+  text-decoration-line: none;
+ 
+  /* transform: scale(1.1);
+  opacity: 0.5; */
+  
+}
+a:hover{
+  transform: scale(1.1);
+  opacity: 0.6;
+  background-color: rgb(210, 214, 212);
+  font-size: 2em;
+}
 
 a button{
   border-radius: 5px;
   margin-right: 1rem;
   padding: 1rem;
   align-self: flex-end;
-  text-decoration: none;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.5s;
+  position: relative;
+  background-color: antiquewhite;
 }
 
 .item{
@@ -121,7 +136,7 @@ a button{
 }
 .span:hover{
   background-color: wheat;
-  color: red;
+  
 }
 
 

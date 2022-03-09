@@ -31,34 +31,33 @@
             
             <div>
                 <!--Zone d'affichage des messages d'erreur du login avec sa clé name-->
-            <?php if(isset($errors['login'])): ?>
-                <p style="color:red"><?php echo $errors['login']; ?> </p>
-            <?php endif ?>
+            
                 <div class="log">
                     <input type="text" class="inplog" placeholder="login" name="login" id="mail">
                     <img class="imglogo" src="<?= WEB_PUBLIC."img".DIRECTORY_SEPARATOR."ic-login.png"?>" height="" width=""  alt="">
-                   
-                    
-                    
+    
                 </div> <br>
-                <small id="errormail"></small>
+                <?php if(isset($errors['login'])): ?>
+                <p style="color:red"><?php echo $errors['login']; ?> </p>
+            <?php endif ?>
+                <small id="error mail"></small>
                 
 
                 <!--Zone d'affichage des messages d'erreur mot de passe avec sa clé name-->
-            <?php if(isset($errors['password'])): ?>
-                <p style="color:red"><?php echo $errors['password']; ?> </p>
-            <?php endif ?>
+           
                 <div class="pw">
                     <input type="password" class="pwinp" placeholder="password" name="password" id="pw">
                     <img class="imgpw" src="<?= WEB_PUBLIC."img".DIRECTORY_SEPARATOR."ic-password.png"?>" height="" width=""  alt="">
 
                 </div>
-
+                <?php if(isset($errors['password'])): ?>
+                <p style="color:red"><?php echo $errors['password']; ?> </p>
+            <?php endif ?>
                 <div>
                     <input type="submit" id='submit' value='Connexion' name="conn">
                     <a href="<?=WEB_ROOT."?controller=security&action=inscription"?>" class="sins">S'inscrire pour jouer</a> 
                     <br>
-                    <small id="errorpassword"></small>
+                    <small id="error password"></small>
                 </div>
                 
             </div>

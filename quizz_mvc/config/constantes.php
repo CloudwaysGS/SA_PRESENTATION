@@ -20,4 +20,5 @@
 
 //Clé d'erreurs
 define("KEY_ERROR","errors");
-define("KEY_USER_CONNECT", "found_user");//utilisateur connecté
+
+define("KEY_USER_CONNECT", "found_user");//cle utilisateur connecté

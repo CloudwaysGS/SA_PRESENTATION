@@ -53,7 +53,7 @@
 
 
     <div class="avat">
-            <img class="avat_img" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."avatar1.png"?>" alt="">
+            <img class="avat_img" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."logo.webp"?>" alt="" height="30%" width="50%">
             <p>Avatar du joueur</p>
     </div>
 

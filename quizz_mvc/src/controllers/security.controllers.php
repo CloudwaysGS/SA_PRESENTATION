@@ -66,7 +66,7 @@
         if(count($error)==0){
             //valide_password('password', $passw, $error);
             $user= find_user_login_password($login, $password);
-   //appel d'une fonction du modele
+        //appel d'une fonction du modele
             if(count($user)!=0){
                 //exitence de l'utiliesatur
                 $_SESSION[KEY_USER_CONNECT]=$user;
@@ -80,7 +80,8 @@
                 header("location: ".WEB_ROOT);
                 exit();
             }
-        }else{
+        }else
+        {
             $_SESSION[KEY_ERROR]=$error; //stockage des erreurs dans la session
             header("location: ".WEB_ROOT);
             exit(); //arret de la redirection
