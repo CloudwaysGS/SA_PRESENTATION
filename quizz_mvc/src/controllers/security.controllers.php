@@ -15,6 +15,21 @@
                 
                 connexion($log, $passw);
             }
+           
+            //Recupération données formulaire
+            if($_REQUEST['action']=="inscription"){
+                $prn=$_POST['prenom'];
+                $nom=$_POST['nom'];
+                $log=$_POST['login'];
+                $pass=$_POST['password'];
+                $c=$_POST['conf'];
+                // var_dump($_POST); die();
+                inscription($prn, $nom, $log, $pass, $c);
+                
+            }
+
+
+            
         }
     }
 

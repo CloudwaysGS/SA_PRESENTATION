@@ -15,5 +15,5 @@
     }else{
         require_once(PATH_SRC."controllers/security.controllers.php");
         
-    echo "okkkkkF";die;
+   
     }

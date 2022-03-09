@@ -21,3 +21,12 @@
 
         return $result;
     }
+
+
+
+
+//Fonction inscription
+
+function inscription($prenom, $nom, $login, $password, $conf){
+    
+}

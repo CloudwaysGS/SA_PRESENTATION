@@ -63,7 +63,9 @@ function Validate_Email() {
                     errorPassword.style.color="green";
                     }
                 }
+            
                 
+
     if(cpt==0){
         return true;
     }else{
