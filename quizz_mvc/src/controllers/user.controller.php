@@ -81,9 +81,19 @@
 
     }
     function liste_question(){
-            
+        $data = json_to_array('question');  
         ob_start();
-        $data = find_users('ROLE_ADMIN');
+
+        $data=json_to_array("question");
+        $page = (!empty($_GET['page']) && $_GET['page'] > 0) ? intval($_GET['page']) : 1;
+        $limit = 2;
+        $totalPages = ceil(count($data) / $limit);
+        $page = max($page, 1);
+        $page = min($page, $totalPages);
+        $offset = ($page - 1) * $limit;
+        $offset = ($offset < 0) ? 0 : $offset;
+        $items = array_slice($data, $offset, $limit);
+       
         require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."liste.question.html.php");
         $content_for_views = ob_get_clean();
         require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."accueil.html.php");
@@ -104,7 +114,7 @@
     function creer_question(){
        
         ob_start();
-        $data = find_users('ROLE_ADMIN');
+        $data = json_to_array('question');
         require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."creer.question.html.php");
         $content_for_views = ob_get_clean();
         require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."accueil.html.php");
@@ -122,6 +132,20 @@
         //recupération des données et chargement de la vue
         //appel du modèle
         ob_start();
+
+        $data=find_users("ROLE_JOUEUR");
+        $page = (!empty($_GET['page']) && $_GET['page'] > 0) ? intval($_GET['page']) : 1;
+        $limit = 4;
+        $totalPages = ceil(count($data) / $limit);
+        $page = max($page, 1);
+        $page = min($page, $totalPages);
+        $offset = ($page - 1) * $limit;
+        $offset = ($offset < 0) ? 0 : $offset;
+        $items = array_slice($data, $offset, $limit);
+        require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."liste.joueur.html.php" );
+        $content_for_views = ob_get_clean();
+        require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."accueil.html.php" );
+
         $data=find_users("ROLE_JOUEUR");
         require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."liste.joueur.html.php" );
         $content_for_views = ob_get_clean();

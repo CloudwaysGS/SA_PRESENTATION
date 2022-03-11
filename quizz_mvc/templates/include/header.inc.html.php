@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.accueil.css"?>" media="screen" type="text/css"/>
     <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.listejoueur.css"?>" media="screen" type="text/css"/>
     <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.inscription.css"?>" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.creer.admin.css"?>" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.creer.question.css"?>" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="<?=WEB_PUBLIC."css".DIRECTORY_SEPARATOR."style.liste.question.css"?>" media="screen" type="text/css"/>
+
 
 
 </head>

@@ -3,20 +3,20 @@
 box-sizing: border-box;
 }
 
-.container{
+.containinscription{
     background-color: white;
-    width: 60%;
+    width: 65%;
     border-radius: 1rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
-
+    
 }
 
-.champs{
+.champsinscription{
     
-    width: 60%;
-    
+    width: 55%;
+    height: 45rem;
     margin: 2rem;
 }
 
@@ -49,9 +49,11 @@ box-sizing: border-box;
 }
 
 .avat .avat_img{
-    border-radius: 10rem;
+    border-radius: 100%;
     margin-right: 4rem;
     margin-top: 1rem;
+    width: 50%;
+    height: 26%;
 }
 
 
@@ -64,10 +66,14 @@ box-sizing: border-box;
 
 
 
-.insc h1{
+.inscrire h1{
     text-align: left;
 }
 
 hr{
     width: 110%;
+}
+
+#image{
+    visibility: hidden;
 }

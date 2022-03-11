@@ -28,7 +28,7 @@
 .headitem{
   
   height: 6rem;
-  background-color: aqua;
+  background-color: rgb(19, 190, 190);
   display: flex;
   align-items: center;
 }
@@ -100,7 +100,7 @@ a button{
 .ava{
   display: flex;
   
-  background-color: aqua;
+  background-color: rgb(20, 170, 170);
   height: 8rem;
   margin-top: 0%;
   border-radius: 5%;
@@ -154,6 +154,7 @@ a button{
   width: 30rem;
   margin-top: -6em;
   border-radius: 1rem;
+  
 }
 
 .listjoueurs{

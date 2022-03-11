@@ -57,7 +57,7 @@
                 <div>
                 <small id="errorpassword"></small>
                     <input type="submit" id='submit' value='Connexion' name="conn">
-                    <a href="<?=WEB_ROOT."?controller=security&action=inscription"?>" class="sins">S'inscrire pour jouer</a> 
+                    <a href="<?=WEB_ROOT."?controller=security&action=inscription"?>" class="btnincrire">S'inscrire pour jouer</a> 
                     <br>
                     
                 </div>

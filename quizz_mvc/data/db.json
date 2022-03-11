@@ -1,209 +1,199 @@
-{"users": [
+{
+    "users": [
+        {
+            "prenom": "Abdou Karim",
+            "nom": "Coulibaly",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "11250"
+        },
+        {
+            "prenom": "Ndianko",
+            "nom": "Yaffa",
+            "login": "admin@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "8156"
+        },
+        {
+            "prenom": "Maty",
+            "nom": "Diop",
+            "login": "admin@gmail.com",
+            "password": "absrimka",
+            "role": "ROLE_ADMIN",
+            "score": "8043"
+        },
+        {
+            "prenom": "Moussa",
+            "nom": "Coulibaly",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "3258"
+        },
+        {
+            "prenom": "Khayou",
+            "nom": "Ciss",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "2358"
+        },
+        {
+            "prenom": "Awa",
+            "nom": "Coulibaly",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "1538"
+        },
+        {
+            "prenom": "Ademba",
+            "nom": "Seck",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "1358"
+        },
+        {
+            "prenom": "Salla",
+            "nom": "Mbaye",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "558"
+        },
+        {
+            "prenom": "Ismaila",
+            "nom": "Berethe",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "214"
+        },
+        {
+            "prenom": "Rakhou",
+            "nom": "JR",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "98"
+        },
+        {
+            "prenom": "Dagada",
+            "nom": "Diop",
+            "login": "joueur@gmail.com",
+            "password": "joueur",
+            "role": "ROLE_JOUEUR",
+            "score": "58"
+        },
+        {
+            "prenom": "Nico",
+            "nom": "Gonzaless",
+            "login": "admin@gmail.com",
+            "password": "admin",
+            "role": "ROLE_ADMIN",
+            "score": "258"
+        },
+        {
+            "nom": "Coulibaly",
+            "prenom": "Abdou",
+            "login": "admin@gmail.com",
+            "password": "Absrimka65@",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Diedhiou",
+            "prenom": "Paterne",
+            "login": "diedhioupaterne@gmail.com",
+            "password": "#Passer2022",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        }
+
+    ],
     
-    {
-        "prenom":"Abdou Karim",
-        "nom":"Coulibaly",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"11250"
-    },
-    {
-        "prenom":"Ndianko",
-        "nom":"Yaffa",
-        "login":"admin@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"8156"
-    },
-    {  
-    "prenom":"Maty",
-    "nom":"Diop",
-    "login":"admin@gmail.com",
-    "password":"absrimka",
-    "role":"ROLE_ADMIN",
-    "score":"8043"
-    },
-    {
-        "prenom":"Moussa",
-        "nom":"Coulibaly",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"3258"
-    },
-    {
-        "prenom":"Khayou",
-        "nom":"Ciss",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"2358"
-    },
-    {
-        "prenom":"Awa",
-        "nom":"Coulibaly",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"1538"
-    },
-    {
-        "prenom":"Ademba",
-        "nom":"Seck",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"1358"
-    },
-    {
-        "prenom":"Salla",
-        "nom":"Mbaye",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"558"
-    },
-    
-    {
-        "prenom":"Ismaila",
-        "nom":"Berethe",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"214"
-    },
-    {
-        "prenom":"Rakhou",
-        "nom":"JR",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"98"
-    },
-    {
-        "prenom":"Dagada",
-        "nom":"Diop",
-        "login":"joueur@gmail.com",
-        "password":"joueur",
-        "role":"ROLE_JOUEUR",
-        "score":"58"
-    },
-    {
-        "prenom":"Nico",
-        "nom":"Gonzaless",
-        "login":"admin@gmail.com",
-        "password":"admin",
-        "role":"ROLE_ADMIN",
-        "score":"258"
-    }
-
-    
-],
-
-
-
-"question":[
-    {
-      "question": "Quels sont les langages web?",
-      "score": 300,
-      "type": "multiple",
-      "answer1": { "text": "HTML", "result": true },
-      "answer2": { "text": "R", "result": false },
-      "answer3": { "text": "Java", "result": true }
-    },
-    {
-      "question": "D'o\u00f9 vient le coronavirus?",
-      "score": 400,
-      "type": "simple",
-      "answer1": { "text": "Italie", "result": false },
-      "answer2": { "text": "Chine", "result": true }
-    },
-    {
-      "question": "Quel terme d\u00e9finit un langage qui s'adapte aussi bien sur Android et sur iOS?",
-      "score": 700,
-      "type": "text",
-      "answer": { "text": "Hybride", "result": true }
-    },
-    {
-      "question": "Quelle est la premi\u00e8re \u00e9cole de codage gratuite au S\u00e9n\u00e9gal?",
-      "score": 600,
-      "type": "simple",
-      "answer1": { "text": "Simplon", "result": false },
-      "answer2": { "text": "Orange Digital Center", "result": true }
-    },
-    {
-      "question": "Quels sont les pr\u00e9curseurs de la r\u00e9volution digitale?",
-      "score": 500,
-      "type": "simple",
-      "answer1": { "text": "GAFAM", "result": true },
-      "answer2": { "text": "CIA-FBI", "result": false }
-    },
-    {
-      "question": "Parmi ces langages, lesquels sont interpr\u00e9t\u00e9s?",
-      "score": 600,
-      "type": "multiple",
-      "answer1": { "text": "C", "result": false },
-      "answer2": { "text": "Python", "result": true },
-      "answer3": { "text": "Java", "result": true }
-    },
-    {
-      "question": "Lequel des langages informatiques suivants est utilis\u00e9 pour l\u2019intelligence artificielle?",
-      "score": 50,
-      "type": "simple",
-      "answer1": { "text": "C", "result": false },
-      "answer2": { "text": "Cobol", "result": false },
-      "answer3": { "text": "Prolog", "result": true },
-      "answer4": { "text": "FORTRAN", "result": false }
-    },
-    {
-      "question": "Que signifie ASCII?",
-      "score": 50,
-      "type": "text",
-      "answer": {
-        "text": "American standard code for information interchange",
-        "result": true
-      }
-    },
-    {
-      "question": "Quel protocole fournit un service de messagerie entre diff\u00e9rents h\u00f4tes?",
-      "score": 50,
-      "type": "simple",
-      "answer1": { "text": "FTP", "result": false },
-      "answer2": { "text": "TELNET", "result": false },
-      "answer3": { "text": "SMTP", "result": true }
-    },
-    {
-      "question": "Quels sont les frameworks JavaScript les plus connus?",
-      "score": 50,
-      "type": "multiple",
-      "answer1": { "text": "Angular", "result": true },
-      "answer2": { "text": "Symfony", "result": false },
-      "answer3": { "text": "Laravel", "result": false },
-      "answer4": { "text": "React", "result": true }
-    },
-    {
-      "question": "Lequel des langages suivants est mieux adapt\u00e9 au programmation structur\u00e9?",
-      "score": 50,
-      "type": "simple",
-      "answer1": { "text": "PL/SQL", "result": false },
-      "answer2": { "text": "FORTRAN", "result": false },
-      "answer3": { "text": "PASCAL", "result": true },
-      "answer4": { "text": "Prolog", "result": false }
-    },
-    {
-      "question": "Le syst\u00e8me binaire utilise quelle base?",
-      "score": 50,
-      "type": "text",
-      "answer": { "text": "2", "result": true }
-    },
-    {
-      "question": "Laquelle des m\u00e9moires suivantes est non volatile?",
-      "score": 40,
-      "type": "simple",
-      "answer1": { "text": "SRAM", "result": false },
-      "answer2": { "text": "DRAM", "result": false },
-      "answer3": { "text": "ROM", "result": true }
-    }
-]
+    "question": [
+        {
+            "question": "Quels sont les langages web?",
+            "reponse": ["Java","HTML","SVT"],
+            "type": "MULTIPLE"
+            
+        },
+        {
+            "question": "D'o\u00f9 vient le coronavirus?",
+            "reponse": ["JAPON","FRANCE","CHINE"],
+            "type": "SIMPLE"
+            
+        },
+        {
+            "question": "Quel terme d\u00e9finit un langage qui s'adapte aussi bien sur Android et sur iOS?",
+            "reponse": ["HYBRIDEJQDKHGKJ DQKJLHKLKQ "],
+            "type": "TEXTE"
+            
+        },
+        {
+            "question": "Quelle est la premi\u00e8re \u00e9cole de codage gratuite au S\u00e9n\u00e9gal?",
+            "reponse": ["MJANGUALÉ","Orange Digital Center","SIMPLON"],
+            "type": "SIMPLE"
+            
+        },
+        {
+            "question": "Quels sont les pr\u00e9curseurs de la r\u00e9volution digitale?",
+            "reponse": ["GAFAM","CIA-FBI","CHINE"],
+            "type": "SIMPLE"
+            
+        },
+        {
+            "question": "Parmi ces langages, lesquels sont interpr\u00e9t\u00e9s?",
+            "reponse": ["C","PYTHON","JAVA"],
+            "type": "MULTIPLE"
+            
+        },
+        {
+            "question": "Lequel des langages informatiques suivants est utilis\u00e9 pour l\u2019intelligence artificielle?",
+            "reponse": ["C","Cobol","Prolog","FORTRAN"],
+            "type": "SIMPLE"
+            
+            
+        },
+        {
+            "question": "Que signifie ASCII?",
+            "reponse": ["American standard code for information interchange"],
+            "type": "TEXTE"
+            
+        },
+        {
+            "question": "Quel protocole fournit un service de messagerie entre diff\u00e9rents h\u00f4tes?",
+            "reponse": ["FTP","TELNET","SMTP"],
+            "type": "SIMPLE"
+            
+        },
+        {
+            "question": "Quels sont les frameworks JavaScript les plus connus?",
+            "reponse": ["Angular","Symfony","Laravel","React"],
+            "type": "MULTIPLE"
+            
+        },
+        {
+            "question": "Lequel des langages suivants est mieux adapt\u00e9 au programmation structur\u00e9?",
+            "reponse": ["PL/SQL","FORTRAN","PASCAL","Prolog"],
+            "type": "SIMPLE"
+            
+        },
+        {
+            "question": "Le syst\u00e8me binaire utilise quelle base?",
+            "reponse": ["2"],
+            "type": "TEXTE"
+            
+        },
+        {
+            "question": "Laquelle des m\u00e9moires suivantes est non volatile?",
+            "reponse": ["SRAM","DRAM","ROM"],
+            "type": "SIMPLE"
+            
+        }
+    ]
 }

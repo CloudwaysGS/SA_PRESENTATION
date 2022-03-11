@@ -121,28 +121,9 @@ function validForm() {
 
 
 
+}
 
-
-  // errornom.innerHTML="veuillez remplir ce champ!!!";
-        // errornom.style.color="red";
-        // errorlogin.innerHTML="veuillez remplir ce champ!!!";
-        // errorlogin.style.color="red";
-        // errorpassword.innerHTML="veuillez remplir ce champ!!!";
-        // errorpassword.style.color="red";
-        // errorconf.innerHTML="veuillez remplir ce champ!!!";
-        // errorconf.style.color="red";
-
-
-
-
-         // errornom.innerHTML="Email valide!!!";
-            // errornom.style.color="green";
-            // errorlogin.innerHTML="Email valide!!!";
-            // errorlogin.style.color="green";
-            // errorpassword.innerHTML="Email valide!!!";
-            // errorpassword.style.color="green";
-            // errorconf.innerHTML="Email valide!!!";
-            // errorconf.style.color="green";
-            // // return true;
-
+const ph = document.getElementById("taff");
+function upload(photo){
+    ph.src=window.URL.createObjectURL(photo.files[0]);
 }

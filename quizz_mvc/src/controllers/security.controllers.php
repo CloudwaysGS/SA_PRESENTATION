@@ -16,7 +16,7 @@
                 connexion($log, $passw);
             }
            
-            //Recupération données formulaire
+            //Recupération données formulaire d'inscription
             if($_REQUEST['action']=="inscription"){
                 $prn=$_POST['prenom'];
                 $nom=$_POST['nom'];
@@ -52,7 +52,42 @@
     }
 
 
+    function inscription($prenom, $nom, $login, $password, $conf){
+        $errors =[];
+    
+        champ_obligatoire('prenom',$prenom,$errors);
+    
+        champ_obligatoire("nom",$nom,$errors);
+    
+        champ_obligatoire("login",$login,$errors);
+    
+           if(!isset($errors["login"])){
+                valide_mail("login",$login,$errors);
+           }
+    
+           champ_obligatoire('password',$password,$errors);
+           if(!isset($errors['password'])){
+                valide_password('password',$password,$errors,"Mot de passe invalide");
+           }
+    
+           if(strcmp($password, $conf) != 0){
+               $errors['conf'] = "Les mots ne correspond pas";
+           }
+    
+           if(count($errors) == 0){
+               if(adduser($prenom,$nom,$login,$password)){
+                   $messagesuccess="done!";
+                require_once(PATH_VIEW."user".DIRECTORY_SEPARATOR."inscription.html.php");
 
+               }
+           }else{
+               $_SESSION['errors'] = $errors;
+               header("location:".WEB_ROOT."?controller=security&action=inscription");
+               exit();
+           }
+    }
+       
+    
 
 
 
