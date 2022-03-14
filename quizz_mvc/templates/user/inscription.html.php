@@ -66,7 +66,7 @@
     <input type="file" name=""  id="image" onchange="upload(this)">
     <div class="avat">
         <label for="image">
-        <img class="avat_img" id="taff" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."logo.webp"?>" alt="" height="25%" width="50%">
+        <img class="avat_img" id="taff" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."logo.webp"?>" alt="" height="25%" width="60%">
            
         </label>
         <p>Avatar du joueur</p>

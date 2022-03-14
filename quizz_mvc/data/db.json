@@ -111,89 +111,146 @@
             "password": "#Passer2022",
             "role": "ROLE_JOUEUR",
             "score": 0
+        },
+        {
+            "nom": "Coulibaly",
+            "prenom": "Abdou",
+            "login": "admin@gmail.com",
+            "password": "#Passer2022",
+            "role": "ROLE_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Camara",
+            "prenom": "Dieynaba",
+            "login": "Diey@gmail.com",
+            "password": "Absrimka65@",
+            "role": "ROLE_ADMIN",
+            "score": 0
+        },
+        {
+            "nom": "Diop",
+            "prenom": "Maty",
+            "login": "tyma@gmail.com",
+            "password": "Tyma1993@",
+            "role": "ROLE_ADMIN",
+            "score": 0
         }
-
     ],
-    
     "question": [
         {
             "question": "Quels sont les langages web?",
-            "reponse": ["Java","HTML","SVT"],
+            "reponse": [
+                "Java",
+                "HTML",
+                "SVT"
+            ],
             "type": "MULTIPLE"
-            
         },
         {
             "question": "D'o\u00f9 vient le coronavirus?",
-            "reponse": ["JAPON","FRANCE","CHINE"],
+            "reponse": [
+                "JAPON",
+                "FRANCE",
+                "CHINE"
+            ],
             "type": "SIMPLE"
-            
         },
         {
             "question": "Quel terme d\u00e9finit un langage qui s'adapte aussi bien sur Android et sur iOS?",
-            "reponse": ["HYBRIDEJQDKHGKJ DQKJLHKLKQ "],
+            "reponse": [
+                "HYBRIDEJQDKHGKJ DQKJLHKLKQ "
+            ],
             "type": "TEXTE"
-            
         },
         {
             "question": "Quelle est la premi\u00e8re \u00e9cole de codage gratuite au S\u00e9n\u00e9gal?",
-            "reponse": ["MJANGUALÉ","Orange Digital Center","SIMPLON"],
+            "reponse": [
+                "MJANGUAL\u00c9",
+                "Orange Digital Center",
+                "SIMPLON"
+            ],
             "type": "SIMPLE"
-            
         },
         {
             "question": "Quels sont les pr\u00e9curseurs de la r\u00e9volution digitale?",
-            "reponse": ["GAFAM","CIA-FBI","CHINE"],
+            "reponse": [
+                "GAFAM",
+                "CIA-FBI",
+                "CHINE"
+            ],
             "type": "SIMPLE"
-            
         },
         {
             "question": "Parmi ces langages, lesquels sont interpr\u00e9t\u00e9s?",
-            "reponse": ["C","PYTHON","JAVA"],
+            "reponse": [
+                "C",
+                "PYTHON",
+                "JAVA"
+            ],
             "type": "MULTIPLE"
-            
         },
         {
             "question": "Lequel des langages informatiques suivants est utilis\u00e9 pour l\u2019intelligence artificielle?",
-            "reponse": ["C","Cobol","Prolog","FORTRAN"],
+            "reponse": [
+                "C",
+                "Cobol",
+                "Prolog",
+                "FORTRAN"
+            ],
             "type": "SIMPLE"
-            
-            
         },
         {
             "question": "Que signifie ASCII?",
-            "reponse": ["American standard code for information interchange"],
+            "reponse": [
+                "American standard code for information interchange"
+            ],
             "type": "TEXTE"
-            
-        },
-        {
-            "question": "Quel protocole fournit un service de messagerie entre diff\u00e9rents h\u00f4tes?",
-            "reponse": ["FTP","TELNET","SMTP"],
-            "type": "SIMPLE"
-            
         },
         {
             "question": "Quels sont les frameworks JavaScript les plus connus?",
-            "reponse": ["Angular","Symfony","Laravel","React"],
+            "reponse": [
+                "Angular",
+                "Symfony",
+                "Laravel",
+                "React"
+            ],
             "type": "MULTIPLE"
-            
+        },
+        {
+            "question": "Quel protocole fournit un service de messagerie entre diff\u00e9rents h\u00f4tes?",
+            "reponse": [
+                "FTP",
+                "TELNET",
+                "SMTP"
+            ],
+            "type": "SIMPLE"
         },
         {
             "question": "Lequel des langages suivants est mieux adapt\u00e9 au programmation structur\u00e9?",
-            "reponse": ["PL/SQL","FORTRAN","PASCAL","Prolog"],
+            "reponse": [
+                "PL\/SQL",
+                "FORTRAN",
+                "PASCAL",
+                "Prolog"
+            ],
             "type": "SIMPLE"
-            
         },
         {
             "question": "Le syst\u00e8me binaire utilise quelle base?",
-            "reponse": ["2"],
+            "reponse": [
+                "2"
+            ],
             "type": "TEXTE"
-            
         },
         {
             "question": "Laquelle des m\u00e9moires suivantes est non volatile?",
-            "reponse": ["SRAM","DRAM","ROM"],
+            "reponse": [
+                "SRAM",
+                "DRAM",
+                "ROM"
+            ],
             "type": "SIMPLE"
-            
         }
     ]
 }

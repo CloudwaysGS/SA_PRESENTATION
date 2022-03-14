@@ -59,11 +59,14 @@
        
     </div>
 
+    <input type="file" name=""  id="image" onchange="upload(this)">
 
-    <div class="avatar">
-        <label for="avatar"></label>
-            <img class="avat_img" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."logo.webp"?>" alt="" height="27%" width="90%">
-            <p>Avatar du joueur</p>
+    <div class="avat">
+        <label for="image">
+        <img class="avat_img" id="taff" src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."logo.webp"?>" alt="" height="25%" width="55%">
+           
+        </label>
+        <p>Avatar du joueur</p>
     </div>
 
 

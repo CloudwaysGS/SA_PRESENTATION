@@ -16,8 +16,9 @@
     .champs{
         
         width: 130%;
-        
+        color: rgb(249, 251, 252);
         margin: 2rem;
+        
     }
     
     .get_file{

@@ -1,13 +1,5 @@
 
 
-//Regular Expression  == ""
-/* /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|
-    \\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|
-    \[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:
-    (?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/
- */
-//function de validation de mail et password
- 
 const regm = document.getElementById('mail');
 const errorMail=document.getElementById('errormail');
 const regpw= document.getElementById('pw');
@@ -22,13 +14,11 @@ function Validate_Email() {
 
     cpt =0;
     if (regm.value == ""){
-        console.log('bienvenue')
         errorMail.innerHTML="veuillez remplir ce champ!!!";
         errorMail.style.color="red";
         cpt++;
     }else{
         if (regx.test(regm.value)){
-            console.log('bienvenue')
             errorMail.innerHTML="Email valide!!!";
             errorMail.style.color="green";
             // return true;

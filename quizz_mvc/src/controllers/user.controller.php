@@ -86,7 +86,7 @@
 
         $data=json_to_array("question");
         $page = (!empty($_GET['page']) && $_GET['page'] > 0) ? intval($_GET['page']) : 1;
-        $limit = 2;
+        $limit = 5;
         $totalPages = ceil(count($data) / $limit);
         $page = max($page, 1);
         $page = min($page, $totalPages);
